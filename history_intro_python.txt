@@ -1,0 +1,33 @@
+    1  git remote add origin https://github.com/Soulciologists/coding_for_economists.git
+    2  git branch -M main
+    3  git push -u origin main
+    4  git init
+    5  git remote add origin https://github.com/Soulciologists/coding_for_economists.git
+    6  git branch -M main
+    7  git push -u origin main
+    8  git add main.py
+    9  git commit -m "added main.py"
+   10  git config --global user.email "onemingleocolin.1@gmail.com"
+   11  git config --global user.name "Souciologists"
+   12  git push -u origin main
+   13  git config --global user.email "onemingleocolin.1@gmail.com"
+   14  config --global user.name "Soulciologists"
+   15  git push -u origin main
+   16  git config credential.username "Soulciologists"
+   17  git push -u origin main
+   18  git config credential.username "Soulciologists"
+   19  git push -u origin main
+   20  git status
+   21  git commit -m "Added main.py"
+   22  git push -u orign main
+   23  git push -u orign main
+   24  git push -u origin main
+   25  git config credential.username "Soulciologists"
+   26  git push -u origin main
+   27  git add main.py
+   28  git commit -m "added main.py"
+   29  git commit -m "Added main.py"
+   30  python
+   31  history/
+   32  history
+   33  history > history_intro_python.txt
