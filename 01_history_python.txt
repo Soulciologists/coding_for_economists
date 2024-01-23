@@ -1,0 +1,32 @@
+    1  git status
+    2  commit --help
+    3  git config --global user.email "onemingleocolin.1@gmail.com"
+    4  git config --global user.name "Souciologists"
+    5  git config --global user.name "Soulciologists"
+    6  git config credential.username "Soulciologists"
+    7  ls
+    8  mv main.pyto 01_intro_to_python
+    9  mv main.py 01_intro_to_python
+   10  mv --help
+   11  touch main.py
+   12  mv 01_intro_to_python 01_intro_to_python.py
+   13  python
+   14  mv main.py 02_basic_python.py
+   15  git push
+   16  git add 01_intro_to_python.py
+   17  git add 02_basic_python.py
+   18  git commit -m "Added 2 intro to python scripts"
+   19  git push
+   20  touch main.py
+   21  mv main.py 03_python_lists.py
+   22  touch main.py
+   23  mv main.py 04_python_dictionaries.py
+   24  touch main.py
+   25  mv main.py 05_python_sets.py
+   26  git add 03_python_lists.py 
+   27  git add 04_python_dictionaries.py 
+   28  git add 05_python_sets.py 
+   29  git commit -m "Added scripts for lists, dictionaries and sets."
+   30  git push
+   31  history
+   32  history > 01_history_python.txt
