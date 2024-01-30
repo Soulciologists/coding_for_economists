@@ -1,0 +1,24 @@
+import pandas as pd
+import numpy as np
+
+# A series is a one-dimensional array-like object.
+ps = pd.Series([1, "a", 2, np.pi])
+print(ps)
+
+print(type(ps))
+print(ps.values)
+
+#Access elements of pd.Series by indexing
+print(ps[0:2])
+
+#Define a custom index
+series_1 = pd.Series(
+  data = ["Schnitzel","lemonade","Whiskey"],
+  index = ["food", "soda", "alcohol"]
+)
+
+#Advanced indexing of pd.Series using .loc
+series_1.loc["food"]
+
+#Accessing more than a simple index
+print(series_1.loc[["food", "alcohol"]])
