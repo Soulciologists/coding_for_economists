@@ -1,0 +1,43 @@
+# Read text files
+
+#open
+# file = open("data/raw/european_commission/ted-sample.csv")
+
+# print(file.readline())
+# print(file.readline())
+
+# file.close()
+
+#here we have to close the file manually: not ideal
+
+
+# with open("data/raw/european_commission/ted-sample.csv") as file:
+#   for line in file:
+#     print(line)
+
+# f = open("ted-sample.csv", "r")
+# headers = f.readline().strip().split(",")
+# f.close()
+
+# for idx, head in enumerate(headers):
+#   print(idx, head)
+
+data = []
+with open("data/raw/european_commission/ted-sample.csv") as f:
+  for line in f:
+    data.append(list(line.split(",")))
+
+print(data[0])
+
+data[1:]
+
+d = {}
+for row in data:
+  country = row[61]
+  countries=country.split('---')
+  for winning_country in d:
+    if not winning_country in d:
+      d[winning_country] = 0
+    d[winning_country] += 1
+
+print(d)
